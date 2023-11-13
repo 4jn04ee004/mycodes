@@ -1,4 +1,4 @@
-## Sum of number digits in List
+## Sum of number  in List
 
 ## First approach
 
@@ -25,4 +25,8 @@ y = lambda x, y : x + y
 
 s = reduce(y, new_list)
 print(s)
+
+
+
+## Another approach
 
