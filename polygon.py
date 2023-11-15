@@ -64,5 +64,8 @@ def test_polygon():
     print(p)
 
     assert str(p) == f"Polygon(n=3, R=1)", f"actual: {str(p)}"
+    assert p.count_vertices == n
+    assert p.circumradius == R
+    assert round(p.area) == 1
 
 test_polygon() 
