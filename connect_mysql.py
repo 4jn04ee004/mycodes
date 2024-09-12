@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ######
+=======
+#######################
+>>>>>>> rakuten
 import mysql.connector
 try:
     connection = mysql.connector.connect(host='localhost',database='mavenmovies',user='root',password='bjvpk2830d')
