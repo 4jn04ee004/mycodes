@@ -1,0 +1,10 @@
+digraph "Microservices to MySQL" {
+	rankdir=LR size=8
+	MySQL [label="MySQL Database" color=lightblue shape=cylinder style=filled]
+	Service1 [label="Microservice 1" color=lightgreen shape=box style=filled]
+	Service2 [label="Microservice 2" color=lightgreen shape=box style=filled]
+	Service3 [label="Microservice 3" color=lightgreen shape=box style=filled]
+	Service1 -> MySQL [label=Connection]
+	Service2 -> MySQL [label=Connection]
+	Service3 -> MySQL [label=Connection]
+}
