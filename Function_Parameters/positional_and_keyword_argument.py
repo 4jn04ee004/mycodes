@@ -14,3 +14,12 @@ func(a=1000)
 
 
 func(b=1000, c=10.5, a=2000)
+
+# Function with formatting values
+
+def func(a, b, c):
+    print("a={0}, b={1}, c={2}".format(a, b, c))
+
+func(11, 12, 13)
+
+
